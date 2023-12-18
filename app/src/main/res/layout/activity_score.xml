@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorBackground"
+    android:padding="16dp"
+    tools:context=".ScoreActivity">
+
+    <TextView
+        android:id="@+id/tvFinalScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/finalScore"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:height="150dp"
+        android:textSize="80dp"/>
+
+    <Button
+        android:id="@+id/btnAgain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/Again"
+        android:layout_below="@+id/tvFinalScore"
+        android:layout_marginTop="25dp"/>
+
+</RelativeLayout>

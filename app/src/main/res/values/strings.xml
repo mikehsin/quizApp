@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">QuizBuilder</string>
+    <string name="QuizTitle">Android Terminology</string>
+    <string name="btnStart">Start</string>
+    <string name="btnTopScore">Highest Score: 0</string>
+    <string name="Score">Score: 0</string>
+    <string name="QuestionNum">Question: 1/11</string>
+    <string name="CountDown">00:30</string>
+    <string name="Option1">A. </string>
+    <string name="Option2">B. </string>
+    <string name="Option3">C. </string>
+    <string name="Option4">D. </string>
+    <string name="Question">Here will be the question\nHere will be the question\nHere will be the question</string>
+    <string name="Next">Next</string>
+    <string name="User">User</string>
+    <string name="Again">Again</string>
+    <string name="Quit">Quit</string>
+    <string name="finalScore">100%</string>
+</resources>
